@@ -67,9 +67,9 @@
 
 
 
-    <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Èı·½Æ½Ì¨Ò³Ãæ</title>
+    <title>ä¸‰æ–¹å¹³å°é¡µé¢</title>
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <link rel="shortcut icon" href="">
     <meta name="author" content="">
@@ -105,7 +105,7 @@ $(function () {
 });
 
 var mingzi = "";
-var juese = "Ò»°ã»áÔ±";
+var juese = "ä¸€èˆ¬ä¼šå‘˜";
 
 
 </script>
@@ -152,7 +152,7 @@ var juese = "Ò»°ã»áÔ±";
 
 
 <div >
-<div ><h1 style="text-align:center; font-size:xx-large">ÍøÕ¾½¨ÉèÖĞ</h1></div>
+<div ><h1 style="text-align:center; font-size:xx-large">ç½‘ç«™å»ºè®¾ä¸­</h1></div>
 	<p id = "output"></p><p></p><p></p>
 </div>
 <br><br><br><br>
@@ -160,16 +160,16 @@ var juese = "Ò»°ã»áÔ±";
 
 
 <div id="preferment-modal" class="modal-window">
-    <div><h1 style="text-align:center">Èı·½Í¶ÈÚ×ÊÆ½Ì¨</h1>
+    <div><h1 style="text-align:center">ä¸‰æ–¹æŠ•èèµ„å¹³å°</h1>
 <ul style="list-style:none">
-<li  class="pding" style="text-align:left">ĞÕ&nbsp;&nbsp;Ãû£º</li>
-<li  class="pding"><input type="text" id = "member"  class="fld" value="³ÂĞÛÁÁ"></li>
-<li class="pding" style="text-align:left">ÃÜ&nbsp;&nbsp;Âë£º</li>
+<li  class="pding" style="text-align:left">å§“&nbsp;&nbsp;åï¼š</li>
+<li  class="pding"><input type="text" id = "member"  class="fld" value="é™ˆé›„äº®"></li>
+<li class="pding" style="text-align:left">å¯†&nbsp;&nbsp;ç ï¼š</li>
 <li class="pding"><input type="password"  class="fld" value="123456"/></li>
-<li class="pding" ><div id="preferment-modal-close" class="fld modal-close" style="background:#Ff0000;margin-top:30px;margin-left:auto;margin-right:auto;line-height:35px;text-align:center;display:block;border-radius:25px; border:#FFFFFF">È·¶¨</div></li>
+<li class="pding" ><div id="preferment-modal-close" class="fld modal-close" style="background:#Ff0000;margin-top:30px;margin-left:auto;margin-right:auto;line-height:35px;text-align:center;display:block;border-radius:25px; border:#FFFFFF">ç¡®å®š</div></li>
 </ul>
      
-	 <ul style="list-style:none; text-align: center"><li style=""><img src="lg.jpg" alt="" class="sc-image" style="width:20px; height:20.125px;"><span style="margin-left:4px; font-size:12px">¹ã¶«Ê¡Ã¯ÃûÊĞÈı·½Í¶×Ê¹ÜÀíÓĞÏŞ¹«Ë¾</span></li></ul>
+	 <ul style="list-style:none; text-align: center"><li style=""><img src="lg.jpg" alt="" class="sc-image" style="width:20px; height:20.125px;"><span style="margin-left:4px; font-size:12px">å¹¿ä¸œçœèŒ‚åå¸‚ä¸‰æ–¹æŠ•èµ„ç®¡ç†æœ‰é™å…¬å¸</span></li></ul>
 </div>
 
 
@@ -181,7 +181,7 @@ var juese = "Ò»°ã»áÔ±";
   $("#member").focus(function() { 
     document.getElementById("member").defaultValue="";
   });*/
-  $("#output").html("ÄãºÃ "+mingzi+" ÄúÊÇ "+juese) ;
+  $("#output").html("ä½ å¥½ "+mingzi+" æ‚¨æ˜¯ "+juese) ;
     if (document.location.search.match(/type=embed/gi)) {
       window.parent.postMessage('resize', "*");
     }
@@ -190,14 +190,14 @@ var juese = "Ò»°ã»áÔ±";
 </div>
 
 </div>
-<ul style="list-style:none; text-align: right"><li ><img src="lg.jpg" alt="" class="sc-image" style="width:40px; height:40.25px;"><span style="margin-left:13px; margin-bottom:60px; line-height:30px">¹ã¶«Ê¡Ã¯ÃûÊĞÈı·½Í¶×Ê¹ÜÀíÓĞÏŞ¹«Ë¾</span></li></ul>
+<ul style="list-style:none; text-align: right"><li ><img src="lg.jpg" alt="" class="sc-image" style="width:40px; height:40.25px;"><span style="margin-left:13px; margin-bottom:60px; line-height:30px">å¹¿ä¸œçœèŒ‚åå¸‚ä¸‰æ–¹æŠ•èµ„ç®¡ç†æœ‰é™å…¬å¸</span></li></ul>
 <script>
 
 $("#preferment-modal-close").click(function() { 
   $("#preferment-modal").css({opacity:0,pointerEvents:"none"});
   mingzi = $("#member").attr("value");
-  if(mingzi === "³ÂĞÛÁÁ") juese = "webmaster";
-  $("#output").html("ÄãºÃ "+mingzi+" ÄãÊÇ "+juese) ;
+  if(mingzi === "é™ˆé›„äº®") juese = "webmaster";
+  $("#output").html("ä½ å¥½ "+mingzi+" ä½ æ˜¯ "+juese) ;
 });
 </script>
 </body></html>
