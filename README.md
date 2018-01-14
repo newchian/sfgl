@@ -1,2 +1,0 @@
-# sfwz
-sanfang website

@@ -1,0 +1,168 @@
+/**
+ *
+ * Sky jQuery Touch Carousel
+ * URL: http://www.skyplugins.com
+ * Version: 1.0.2
+ * Author: Sky Plugins
+ * Author URL: http://www.skyplugins.com
+ *
+ */
+
+/**
+*	Table of Contents
+*	
+*	1. Media Queries
+*	2. Container Styles
+*	3. Carousel Item Styles
+*	4. Current Content Styles
+*	5. Gradient Overlay Styles
+*	6. Navigation Styles
+*	7. Preloader Styles
+*	8. Other Styles
+*/
+
+/**********************************************
+*
+* 1. Media Queries
+*
+**********************************************/
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+	html {
+		
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.sky-carousel .sc-overlay {
+		width: 110px !important;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+	.sky-carousel .sc-overlay {
+		width: 20px !important;
+	}
+}
+
+/**********************************************
+*
+* 2. Container Styles
+*
+**********************************************/
+.js .sky-carousel {
+	visibility: hidden;
+}
+
+.sky-carousel {
+	width: 99%;
+	height: 300px;
+	position: relative;	
+	border: 1px solid #e7e7e7;
+	background: #f5f5f5;
+	overflow: hidden;
+	margin: 0 auto;	
+}
+
+.sky-carousel .sky-carousel-container {
+	position: relative;
+	list-style-type: none;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+/**********************************************
+*
+* 3. Carousel Item Styles
+*
+**********************************************/
+.sky-carousel .sky-carousel-container li {
+	position: absolute;
+	border: 0;
+}
+
+.sky-carousel .sky-carousel-container li img {
+	margin-top: -34px;
+	width: 350px;
+	height:333px !important;
+}
+
+
+
+
+
+/**********************************************
+*
+* 5. Gradient Overlay Styles
+*
+**********************************************/
+.sky-carousel .sc-overlay {
+	position: absolute;
+	height: 100%;
+	z-index: 4998;
+	pointer-events: none;
+	top: 0;
+}
+
+.sky-carousel .sc-overlay-left {
+	left: -0.1px;
+}
+
+.sky-carousel .sc-overlay-right {
+	right: -0.1px;
+}
+
+
+body {width: 100%;margin-left:auto;margin-right:auto;}
+
+
+@media screen and (min-width:580px) { 
+body {width: 580px;margin-left:auto;margin-right:auto;font-size:16px;text-align:center;} 
+} 
+
+table{width:99%;margin:1px auto;}
+
+.sm{background:#FDFFFF;width:98%;border:1px solid #eeeeee;margin:15px auto;padding:3px;text-align:left;}
+.sm h{color:#ff0000;font-size: 168%;}
+.sm hi{color:#ff0000;font-size: 68%;}
+
+.yj{font-size: 85%;}
+.yj small{font-size: 100%;color:#9D9D9D;}
+.yj img{display:inline-block;margin-bottom:-5px;}
+.yj l{float:right;margin-right:12.5%;width:19%;text-align:center;font-size: 85%;font-weight:bold;color:#fff;line-height:168%;display:block;border-radius:10px;background:#FF0000;margin-top:5px;}
+
+.yj kk{border:1px solid #ff0000;color:#ff0000;padding:3px 3px;float:left;margin-top:-1px;}
+.yj hh{border:1px solid #9F35FF;color:#9F35FF;padding:3px 3px;float:left;margin-top:-1px;}
+
+.tname {margin-bottom:15px;background:#ff0000;height:60px;line-height:20px;padding-top:5px;padding-left:5px;text-align:left;}
+.tname n{font-size: 138%;color:#fff;}
+.tname bh{font-size: 80%;color:#fff;line-height:40px;}
+.tname s{font-size: 85%;color:#000;line-height:40px;background:#F9F900;padding:2px;}
+.tname hk{float:right;border:2px solid #4F4F4F;text-align:center;margin-right:5px;padding:3px;border-radius:3px;color:#4F4F4F;background:#F9F900}
+.mqg{float:right;background:#FF0000;padding:4px 14px;margin-right:4px;color:#fff;margin-top:-2px;}
+.tqg{float:right;background:#FF0000;padding:4px 14px;margin-right:4px;color:#fff;margin-top:-2px;}
+.wqg{float:right;background:#9D9D9D;padding:4px 6px;margin-right:4px;color:#fff;margin-top:-2px;}
+
+
+.hdsmm{background:#FDFFFF;border:1px solid #EEEEEE;border-radius:5px;padding:5px 3px;}
+.hdsm{font-size: 85%;color:#000;margin-top:0px;}
+.hdsm2{font-size: 85%;color:#9D9D9D;margin-top:10px;line-height:18px}
+.hdsm2 small{font-size: 100%;color:#D9B300;}
+
+.hdsm2 l{float:right;margin-left:1%;font-size: 80%;color:#9D9D9D;}
+
+.viewimg img{width:100%;}
+.cp{width:100%;height:30px;line-height:30px;background:#8E8E8E;color:#fff;text-align:center;margin:10px auto;}
+.overjpg img{width:100%;}
+
+.hntent{line-height:19px;background:#fff;border:1px solid #EEEEEE;margin:10px auto;padding:5px 10px;font-size: 85%;color:#9D9D9D;}
+.hntent a{color:#000;}
+.sm hs{color:#ff0000;font-size: 100%;}
+
+.wxsm{width:96%;background:#FFF;}
+
+.jl{margin-top:20px}
+a{text-decoration:none;}
+a:hover{text-decoration:none;}
+body {font-size: 90%;} 
+}
