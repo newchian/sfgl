@@ -1,0 +1,25 @@
+{
+  "ret": true,
+  "data": {
+    "sightName": "高州仙人洞风景区(AAAA景区)",
+    "bannerImg": "http://img1.qunarzz.com/sight/p0/1810/8a/8ad29a1f4ff201c9a3.img.jpg_600x330_55471b8a.jpg",
+    "gallaryImgs": ["http://img1.qunarzz.com/sight/p0/1810/f3/f389b00e9f015678a3.img.jpg_r_800x800_7efd035b.jpg", "http://img1.qunarzz.com/sight/p0/1810/f1/f1617b86583d4c13a3.img.jpg_r_800x800_430c6b1a.jpg"],
+    "categoryList": [{
+        "title": "成人票",
+        "children": [{
+          "title": "成人三馆联票",
+          "children": [{
+            "title": "成人三馆联票 - 某一连锁店销售"
+          }]
+        },{
+          "title": "成人五馆联票"
+        }]
+      }, {
+        "title": "学生票"
+      }, {
+        "title": "儿童票"
+      }, {
+        "title": "特惠票"
+      }]
+  }
+}
